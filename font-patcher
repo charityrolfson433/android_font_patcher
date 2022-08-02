@@ -30,23 +30,41 @@ do
 		NEWNAME="$NAME Light"
 	elif [[ $i == *"-LightItalic."* ]]; then
 		STYLE=LightItalic
-		NEWNAME="$NAME Light"
+		NEWNAME="$NAME Light"		
+	elif [[ $i == *"-ExtraLight."* ]]; then
+		STYLE=ExtraLight
+		NEWNAME="$NAME ExtraLight"
+	elif [[ $i == *"-ExtraLightItalic."* ]]; then
+		STYLE=ExtraLightItalic
+		NEWNAME="$NAME ExtraLight"
 	elif [[ $i == *"-Thin."* ]]; then
 		STYLE=Thin
 		NEWNAME="$NAME Thin"
 	elif [[ $i == *"-ThinItalic."* ]]; then
 		STYLE=ThinItalic
-		NEWNAME="$NAME Thin"
+		NEWNAME="$NAME Thin"		
 	elif [[ $i == *"-Medium."* ]]; then
 		STYLE=Medium
 		NEWNAME="$NAME Medium"
 	elif [[ $i == *"-MediumItalic."* ]]; then
 		STYLE=MediumItalic
-		NEWNAME="$NAME Medium"
+		NEWNAME="$NAME Medium"		
+	elif [[ $i == *"-SemiBold."* ]]; then
+		STYLE=SemiBold
+		NEWNAME="$NAME SemiBold"
+	elif [[ $i == *"-SemiBoldItalic."* ]]; then
+		STYLE=SemiBoldItalic
+		NEWNAME="$NAME SemiBold"	
 	elif [[ $i == *"-Bold."* ]]; then
 		STYLE=Bold
 	elif [[ $i == *"-BoldItalic."* ]]; then
-		STYLE=BoldItalic
+		STYLE=BoldItalic		
+	elif [[ $i == *"-ExtraBold."* ]]; then
+		STYLE=ExtraBold
+		NEWNAME="$NAME ExtraBold"
+	elif [[ $i == *"-ExtraBoldItalic."* ]]; then
+		STYLE=ExtraBoldItalic
+		NEWNAME="$NAME ExtraBold"		
 	elif [[ $i == *"-Black."* ]]; then
 		STYLE=Black
 		NEWNAME="$NAME Black"

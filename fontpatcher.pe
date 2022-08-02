@@ -2,6 +2,7 @@
 
 # Roboto font patcher script
 # by nongthaihoang @ xda
+# Extended Edition By Mistu [2022-03-07]
 
 Open($2)
 _em=$em
