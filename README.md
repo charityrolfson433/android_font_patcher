@@ -24,8 +24,8 @@ Patch custom fonts to be used on Android.
 
   `*-<STYLE>.<extension>`
 
-  `STYLE`: Thin | ThinItalic | Light | LightItalic | Regular | Italic
-  | Medium | MediumItalic | Bold | BoldItalic | Black | BlackItalic
+  `STYLE`: Thin | ThinItalic | Extralight | | ExtralightItalic | Light | LightItalic | Regular | Italic
+  | Medium | MediumItalic | SemiBold | SemiBoldItalic | Bold | BoldItalic |ExtraBold | ExtraBoldItalic | Black | BlackItalic
 - Run command:
   ```
   ./font-patcher [-cn] [FONT]...
